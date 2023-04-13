@@ -1,0 +1,8 @@
+streamlit-drawable-canvas
+pytesseract
+numpy
+opencv-python
+tesseract
+tesseract-ocr
+PIL
+keras
