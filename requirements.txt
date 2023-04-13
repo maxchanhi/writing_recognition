@@ -4,5 +4,5 @@ numpy
 opencv-python
 tesseract
 tesseract-ocr
-PIL
+Pillow
 keras
