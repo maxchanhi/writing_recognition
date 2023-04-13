@@ -3,6 +3,5 @@ pytesseract
 numpy
 opencv-python
 tesseract
-tesseract-ocr
 Pillow
 keras
