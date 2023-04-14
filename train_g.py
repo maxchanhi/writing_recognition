@@ -8,9 +8,7 @@ def recogniser01():
     canvas_height = 400
     canvas_result = st.empty()
     st.header("OCR writing recognition")
-    st.warning("""Write "0" or "1"!
-    This model was specifically trained for recognising 0 and 1.""")
-    # Create a canvas for drawing
+    st.warning("""writing "0" or "1"!""")
     canvas = st_canvas(
         fill_color="#ffffff",
         stroke_width=8,
@@ -44,5 +42,12 @@ def recogniser01():
         st.success(f"Confidence Score: {confidence_score}")
     else:
         pass
+    st.header("Project Description")
+    col1,col2 = st.columns(2)
+    
+    with col1:
+        st.write("Google Teachable Machine is a simple and user-friendly solution for machine learning in images. With the provided pictures and by learning from the pattern, the trained model can differentiate between 0 and 1 with high accuracy. The trained model can be exported for TensorFlow for custom projects, like this one currently.")
+    with col2:
+        st.image("teachable_machine.png","Screenshot of the project")
 if __name__ == "__main__":
-    recogniser01
+    recogniser01()
