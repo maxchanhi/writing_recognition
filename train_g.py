@@ -8,7 +8,7 @@ def recogniser01():
     canvas_height = 400
     canvas_result = st.empty()
     st.header("OCR writing recognition")
-    st.warning("""writing "0" or "1"!""")
+    st.warning("""Write "0" or "1"!""")
     canvas = st_canvas(
         fill_color="#ffffff",
         stroke_width=8,
